@@ -1,8 +1,17 @@
-[project]
-name = "freerouter"
-version = "0.1.0"
-dependencies = ["requests"]
-
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ftouter"
+version = "0.1.0"
+description = "Resilient runtime layer for free/cheap-tier LLM APIs"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
+
+[tool.setuptools.packages.find]
+include = ["ftouter*"]

@@ -1,0 +1,6 @@
+pyproject.toml
+freerouter.egg-info/PKG-INFO
+freerouter.egg-info/SOURCES.txt
+freerouter.egg-info/dependency_links.txt
+freerouter.egg-info/requires.txt
+freerouter.egg-info/top_level.txt
