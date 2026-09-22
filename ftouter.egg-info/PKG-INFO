@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: ftouter
+Version: 0.1.0
+Summary: Resilient runtime layer for free/cheap-tier LLM APIs
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: python-dotenv

@@ -5,9 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ftouter"
 version = "0.1.0"
-description = "Resilient runtime layer for free/cheap-tier LLM APIs"
+description = "A resilient runtime layer for free/cheap-tier LLM APIs"
 readme = "README.md"
 requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Your Name", email = "you@example.com"}]
 dependencies = [
     "requests",
     "python-dotenv",
