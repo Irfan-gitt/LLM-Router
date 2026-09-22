@@ -1,4 +1,4 @@
-from freerouter import chat, general, reasoning, tool_call
+from ftouter import chat, general, reasoning, tool_call
 from dotenv import load_dotenv
 load_dotenv()
 
