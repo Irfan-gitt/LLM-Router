@@ -1,9 +1,11 @@
 Metadata-Version: 2.4
 Name: ftouter
-Version: 0.1.0
+Version: 0.1.1
 Summary: A resilient runtime layer for free/cheap-tier LLM APIs
-Author-email: Your Name <you@example.com>
+Author-email: Irfan <youcanbet5@gmail.com>
 License-Expression: MIT
+Project-URL: Homepage, https://github.com/Irfan-gitt/LLM-Router
+Project-URL: Repository, https://github.com/Irfan-gitt/LLM-Router
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Requires-Dist: requests
