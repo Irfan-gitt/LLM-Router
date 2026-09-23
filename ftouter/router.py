@@ -2,12 +2,12 @@ import os
 import requests
 
 from .providers import PROVIDER_INFO
-from . import chat, reasoning, tool_call
+from . import chat_models, reasoning_models, tool_calling_models, vision_models
 
 
 def _configured_by_provider():
     configured = {}
-    for module in (chat, reasoning, tool_call):
+    for module in (chat_models, reasoning_models, tool_calling_models, vision_models):
         for provider, model_id in module.MODELS:
             configured.setdefault(provider, set()).add(model_id)
     return configured
