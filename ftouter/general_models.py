@@ -3,10 +3,11 @@ import time
 import requests
 
 from .providers import PROVIDER_INFO
-from . import chat, reasoning, tool_call
+from . import chat_models, reasoning_models, tool_calling_models
 
 # every model across all three categories, deduped, order preserved
-MODELS = list(dict.fromkeys(chat.MODELS + reasoning.MODELS + tool_call.MODELS))
+MODELS = list(dict.fromkeys(chat_models.MODELS +
+              reasoning_models.MODELS + tool_calling_models.MODELS))
 
 COOLDOWN_SECONDS = 30 * 60
 _cooldown = {}
