@@ -133,6 +133,8 @@ except RuntimeError as e:
 
 Issues and pull requests are welcome. If you'd like to add support for another provider, open an issue first so the model list and provider config stay consistent.
 
+https://github.com/Irfan-gitt
+
 ## License
 
 MIT
